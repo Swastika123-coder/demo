@@ -30,7 +30,7 @@ if ($userDetails['delete_permissioin'] == 'Yes') {
     mysqli_query($con,"delete from unit_master where unit_code='".$unit_code."' ");
 
     $status = "Success";
-    $message = "Unit Deleted Successfully";
+    $message = "Unit table deleted successfully";
     $activity_details = "You Delete A Record In Unit Table";
     
 } else {
